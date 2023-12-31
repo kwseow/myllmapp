@@ -9,10 +9,10 @@ from langchain.chains import SequentialChain
 
 # load_dotenv('env03-2.txt')
 # openai_api_key = os.getenv('OPENAI_API_KEY')
-# lunary_app_id = os.getenv('LUNARY_APP_ID')
+lunary_app_id = os.getenv('LUNARY_APP_ID')
 # # print the key
 # print("OpenAI Key:%s"%openai_api_key)
-# print("Lunary key:%s"%lunary_app_id)
+print("Lunary key:%s"%lunary_app_id)
 
 # set up lunary callback
 handler = LunaryCallbackHandler(app_id=lunary_app_id)
