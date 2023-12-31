@@ -8,7 +8,7 @@ from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 
 load_dotenv('env03-2.txt')
-openai_api_key = os.getenv('OPENAI_API_KEY')
+# openai_api_key = os.getenv('OPENAI_API_KEY')
 lunary_app_id = os.getenv('LUNARY_APP_ID')
 # print the key
 print("OpenAI Key:%s"%openai_api_key)
