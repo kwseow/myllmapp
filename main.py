@@ -36,7 +36,7 @@ gangster_template = PromptTemplate(
     template=gangster_template
 )
 
-llm = OpenAI(temperature=0.9, callbacks=[handler])
+llm = OpenAI(model_name="gpt-3.5-turbo-instruct", temperature=0.9, callbacks=[handler])
 
 meal_chain = LLMChain(
     llm=llm,
